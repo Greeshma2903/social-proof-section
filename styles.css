@@ -37,7 +37,7 @@ body {
 
 .wrapper{
     position: absolute;
-    min-width: 100%;        /* 🔥 */
+    min-width: 100%;      
     height: 100vh;
     top: 0px;
     left: 0px;
@@ -52,7 +52,7 @@ body {
     .wrapper{
         background-image: url("./images/bg-pattern-top-mobile.svg"), url("./images/bg-pattern-bottom-mobile.svg");
         background-repeat: no-repeat, no-repeat;
-        background-position: -100px -30px, 0px 400px;  /* horizontal vertical , horizontal vertical*/
+        background-position: -100px -30px, 0px 400px;  
         background-size: 100%, 100%;
     }
 }
@@ -64,7 +64,7 @@ main{
     display: flex;
     flex-wrap: wrap;
     max-width: 1500px;
-    padding: 8% 10%;        /* use padding instead of margin, as it doesnt effect backgrounds on parent element*/
+    padding: 8% 10%;        
 }
 
 header {
